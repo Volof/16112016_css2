@@ -1,0 +1,68 @@
+.header_h1 {
+	text-align: left;
+	font-family: fantasy;
+	font-size:250%;
+
+}
+.header_h2 {
+	text-align: left;
+	font-family: fantasy;
+	font-size: 200%;
+
+}
+.decoration{
+	list-style: none;
+	font-family: Segoe UI Light;
+	text-align: left;
+	font-size: 18px;
+}
+.link{
+	text-decoration: none;
+}
+.link:hover {
+	color: #FF00FF;
+}
+.table{
+	width: 1300px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.table th {
+	background: #FFB6C1;
+	color: black;
+}
+td:first-letter{
+	color: #FF1493;
+}
+tr:hover :first-child{
+	background: #FF00FF;
+}
+tr:hover{
+	background: #FFDEAD;
+}
+.row_color {
+	background: blue;
+	color: white;
+	font-size: 100%;
+	font-family: Segoe UI Light;
+}
+.row_1{
+	text-align: justify; 
+	font-size: 20px;
+	font-family: Segoe UI Light;
+}
+.row_1:first-letter{
+	color:#ea3; /*псевдоелементи*/
+	font-size: 200%;
+}
+.row_1:first-line{
+	color: #a9a;
+	font-style: italic;
+}
+.image{
+	cursor: pointer;
+	max-width: 100px; /*зменшуєм розмір картинки*/
+}
+.image:hover{
+	max-width: none; /*при наведені курсора повертається оригінальний розмір*/
+}
